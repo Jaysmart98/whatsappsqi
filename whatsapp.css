@@ -1,0 +1,503 @@
+body{
+    height: 2000px;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(252, 245, 235);
+}
+#header{
+    display: flex;
+    width: 1900px;
+    height: 100px;
+    background-color: rgba(252, 245, 235, 0.924);
+    color: black;
+    position: fixed;
+    border-bottom: 0.5px solid rgb(128, 128, 128, 0.2);
+    z-index: 1000;
+}
+
+#div1{
+    margin-left: 10px;
+    padding: 20px;
+}
+
+#navBar-logo{
+    margin-left: 280px;
+    padding: 25px;
+    font-size: 20px;
+}
+
+#navBar-logo a{
+    text-decoration: none;
+    color: black;
+    margin-left: 90px;
+    font-weight:lighter;
+}
+
+#navBar-logo a:hover{
+    border-bottom: 2px solid rgb(37,211,102) ;
+}
+
+#navBar-items{
+    margin-left: -40px;
+    padding: 27px;
+}
+
+#navBar-items a{
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight:lighter;
+    text-decoration: none;
+    color: black;
+}
+
+#navBar-items a:hover{
+    border-bottom: 2px solid rgb(37,211,102) ;
+}
+
+.navBAr-buttons{
+    margin-top: 15px;
+    margin-left: 290px;
+    display: flex;
+}
+
+.buttons{
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.buttons:hover{
+    color: white;
+}
+
+#buttons1{
+    background-color: rgb(255,255,255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#buttons1:hover{
+    background-color: black;
+}
+
+#buttons2{
+    background-color: rgb(37,211,102);
+    text-decoration: none;
+}
+
+#buttons2:hover{
+    background-color: black;
+    color: white;
+}
+
+#buttons2 a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#buttons2 a:hover{
+    color: white;
+}
+
+#body1{
+    height: 900px;
+    padding: 0px 50px;
+}
+
+#B-body1{
+    background-image: url(./image/background-color1.png);
+    background-size: cover;
+    width: 1800px;
+    height: 750px;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#B-body1 span:first-child{
+    font-size: 80px;
+    font-weight: 600;
+}
+
+#B-body1 span:nth-of-type(2){
+    font-size: 20px;
+}
+
+#navBar-buttons{
+    margin-top: 60px;
+    margin-left: -20px;
+}
+
+#B-body2i{
+    margin-left: -320px;
+    margin-top: -180px;
+}
+
+#chats{
+    width: 100px;
+    margin-left: 350px;
+    margin-top: -180px;
+}
+
+#morningText{
+    width: 450px;
+    height: 40px;
+    margin-top: 100px;
+}
+
+#VoiceNote{
+    width: 440px;
+    height: 70px;
+}
+
+#sentPhoto{
+    width: 400px;
+}
+
+#replyText{
+    width: 440px;
+}
+
+#info{
+    width: 330px;
+    justify-self: flex-end;
+    text-align:left;
+    color: rgb(133, 133, 130);
+    margin-top: -10px;
+}
+
+#info h5{
+    font-weight: 400;
+}
+
+#sec2{
+    justify-content: center;
+}
+
+#sec2i{
+    justify-items: center;
+}
+
+#sec2i h1{
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+#dp-text{
+    width: 1300px;
+
+}
+
+#sec2ii{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.textContainer{
+    margin-right: 180px;
+}
+
+.textContainer h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.textContainer h5{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -30px;
+}
+
+.textContainer2{
+    display: flex;
+}
+
+.textContainer2 a{
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(37,211,102);
+    color: black;
+    font-size: 20px;
+}
+
+.textContainer2 a:hover{
+    color: rgb(37,211,102);
+}
+
+.textContainer2 i{
+    margin: 5px;
+    margin-left: 10px;
+}
+
+#sec3{
+    margin-top: 70px;
+    background-color: rgb(17,27,33);
+    width: 100%;
+    height: 850px;
+}
+
+#sec3ii{
+    display: flex;
+    justify-content: center;
+}
+
+#encrypt{
+    margin-top: 100px;
+    margin-right: 10px;
+}
+
+#textContainer3{
+    margin-top: 200px;
+    margin-left: 100px;
+    color: white;
+}
+
+#textContainer3 h1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 500;
+}
+
+#freely{
+    margin-top: -65px;
+    color: rgb(37,211,102) !important;
+}
+
+#textContainer3 h5{
+    margin-top: -50px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#textContainer2 a{
+    color: white;
+}
+
+#textContainer2 a:hover{
+    color: rgb(37,211,102);
+}
+
+#group{
+    margin-left: 0px;
+}
+
+#groupChatImg{
+    margin-bottom: 90px;
+    margin-left: -350px;
+    height: 450px;
+}
+
+#TextContainer{
+    margin-top: 150px;
+}
+
+#sec5{
+    margin: 200px 0px;
+}
+
+#sec5i{
+    display: flex;
+    justify-content: center;
+}
+
+#sec5ii{
+    display: flex;
+    justify-content: center;
+}
+
+#cute{
+    width: 330px;
+    margin-top: 180px;
+    margin-left: -325px;
+    height: 300px;
+}
+
+#sec5Text{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+#sec5Text h1{
+    font-size: 4.5rem;
+    font-weight: 540;
+}
+
+#sec5Text h5{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#foot{
+    margin-top: 200px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(17,27,33);
+}
+
+#footTable{
+    width: 55%;
+    height:300px;
+    color: white;
+    display: flex;
+    justify-self: center;
+}
+
+#footTable td{
+    font-size: 20px;
+    text-align: left;
+    width: 300px;
+    height: 35px;
+}
+
+td a{
+    text-decoration: none;
+    color: white;
+}
+
+td a:hover{
+    border-bottom: 1px solid white;
+}
+
+#footTable th{
+    width: 200px;
+    font-size: 12px;
+    text-align: left;
+    height: 0px;
+}
+
+#whatsappLogo2{
+    margin-top: 15px;
+    width: 200px;
+}
+
+#buttons3{
+    background-color: rgb(37,211,102);
+    text-decoration: none;
+    width: 150px;
+    color: black;
+}
+
+#buttons3:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#buttons3 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+#buttons3 a:hover{
+    color: rgb(0, 0, 0);
+}
+
+#line{
+    width: 55%;
+    height: 2px;
+    background-color: rgb(51,70,63);
+    margin-top: 40px;
+    display: flex;
+    justify-self: center;
+}
+
+#last-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+#lastDiv1{
+    display: flex;
+    color: white;
+    margin-right: 50px;
+}
+
+#lastDiv1 h5{
+    margin-left: 30px;
+    font-weight: 300;
+} 
+
+#lastDiv2{
+    display: flex;
+    margin-right: 200px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-left: 25px;
+    border: 1px solid white;
+}
+
+.circle:hover{
+    background-color: rgb(37,211,102);
+}
+
+#lastDiv3{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    border: 1.9px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    align-content: center;
+}
+
+#socialMedia{
+    margin: 17px;
+}
+
+#language{
+    background-color: rgb(17,27,33);
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+#angleDown{
+    align-self: center;
+    margin-left: 30px;
+}
+
+
+
+/* 
+#body2{
+    padding: 0px 50px;
+}
+
+#B-body2{
+    background: linear-gradient(100deg, rgb(128, 128, 128), rgb(255, 255, 255), rgb(128, 128, 128)), url(./image/mother.png) ;
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 800px;
+    width: 100%;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
