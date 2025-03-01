@@ -347,7 +347,7 @@ body{
     font-weight: 100;
 }
 
-#foot{
+.container{
     margin-top: 200px;
     width: 100%;
     height: 500px;
@@ -355,11 +355,18 @@ body{
 }
 
 #footTable{
+    margin-top: 100px;
     width: 55%;
     height:300px;
     color: white;
     display: flex;
     justify-self: center;
+}
+
+#foot{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 50px;
 }
 
 #footTable td{
